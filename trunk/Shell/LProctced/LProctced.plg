@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LProctced - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/LProctced.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LProctced.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP57F3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/LProctced.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEExport.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEFile.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEImport.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEReLocal.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPESection.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LProctced.cpp"
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LProctcedDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP57F3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP57F4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/LProctced.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\4.11\Lang\LProctced\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP57F4.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5804.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/LProctced.pdb" /machine:I386 /out:"../bin/LProctced.exe" 
+.\Release\LPEExport.obj
+.\Release\LPEFile.obj
+.\Release\LPEImport.obj
+.\Release\LPEReLocal.obj
+.\Release\LPESection.obj
+.\Release\LProctced.obj
+.\Release\LProctcedDlg.obj
+.\Release\StdAfx.obj
+.\Release\LProctced.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5804.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LPEExport.cpp
+LPEFile.cpp
+LPEImport.cpp
+LPEReLocal.cpp
+LPESection.cpp
+LProctced.cpp
+LProctcedDlg.cpp
+C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LProctcedDlg.cpp(272) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Generating Code...
+C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEExport.cpp(92) : warning C4715: 'LPEExport::GetFuncValue' : not all control paths return a value
+C:\Users\Administrator\Desktop\4.11\Lang\LProctced\LPEExport.cpp(152) : warning C4715: 'LPEExport::GetNameOrdValue' : not all control paths return a value
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/LProctced.bsc"  .\Release\StdAfx.sbr .\Release\LPEExport.sbr .\Release\LPEFile.sbr .\Release\LPEImport.sbr .\Release\LPEReLocal.sbr .\Release\LPESection.sbr .\Release\LProctced.sbr .\Release\LProctcedDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LProctced.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
